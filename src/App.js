@@ -1,11 +1,10 @@
 import './App.css';
+import Body from './Components/Body';
 
 function App() {
   return (
-    <div className=' text-center font-bold text-2xl bg-green-500'>
-     Hello world! This is nextflix-GPT project.
-    </div>
-  );
+          <Body/>
+        );
 }
 
 export default App;

@@ -1,6 +1,11 @@
 # NetflixGPT App
  -create- react-app
  -configure tailwind
+ -Browser Router
+  -- Confiure routing and provide it to our app
+- Header
+- Login page
+ -- signup and signin form
 
 
  # App Features
