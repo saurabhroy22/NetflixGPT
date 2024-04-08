@@ -1,6 +1,30 @@
+
+import { useSelector } from "react-redux";
+import useNowPlayingMovies from "../Hooks/useNowPlayingMovies";
+import Header from "./Header";
+import MainContainer from "./MainContainer";
+import SecondaryContainer from "./SecondaryContainer";
+import GptSearchPage from "./GptSearchPage";
+import useTrendingMovies from "../Hooks/useTrendingMovies";
+import useTopRatedMovies from "../Hooks/useTopRatedMovies";
+import useAwardWinningMovies from "../Hooks/useAwardWinningMovies";
+
+
+
 const Browse=()=>{
+    const gptSearch=useSelector(store=>store.gpt.isSearchGPT);
+    useNowPlayingMovies();
+    useTrendingMovies();
+    useTopRatedMovies();
+    useAwardWinningMovies();
+
     return (<div>
-        Browse
+        <Header/>
+        {gptSearch?<GptSearchPage/>:<>
+        <MainContainer/>
+        <SecondaryContainer/>
+        </> }
+       
     </div>)
 };
 

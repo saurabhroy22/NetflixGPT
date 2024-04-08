@@ -6,6 +6,33 @@
 - Header
 - Login page
  -- signup and signin form
+- Validation logic
+-authentication of the user
+  -- signup and signIn using firebase manage userAPI
+  -- onAuth state change
+--set up redux
+ -- create slice
+--Updated userInfo by firebase update user API
+--TMDB API for movie list
+-- created movies slice
+- Main container
+ --video player component
+ --info component
+ --fetched data from TMDB and populated video player
+- secondary container
+ --movieList component
+ --movieCard component
+ -- fetched data from TMDB and made list of movie*N
+-- scrollable pattern 
+--GPT searchpage
+ --gptsearch component
+- Multi language page for gpt search page
+- created lang configurantion select box and redux slice for language
+- openAI key
+- opentAI configuration
+- search results data fetched from openAI API
+- population of data on the GPTsearch page
+
 
 
  # App Features
