@@ -32,6 +32,9 @@
 - opentAI configuration
 - search results data fetched from openAI API
 - population of data on the GPTsearch page
+- Making my app responsive
+- .env file
+- Memoisation 
 
 
 

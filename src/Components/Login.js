@@ -75,9 +75,9 @@ const Login=()=>{
         <Header/>
 
         <div className=" absolute"> 
-            <img src={NETFLIX_BACKGROUND} alt="Background_img"/>
+            <img className=" h-screen object-cover md:h-auto" src={NETFLIX_BACKGROUND} alt="Background_img"/>
         </div>
-        <form onSubmit={(e)=>e.preventDefault()} className=" absolute bg-black w-2/6 my-36 mx-auto right-0 left-0 text-white p-12 opacity-85 rounded-md ">
+        <form onSubmit={(e)=>e.preventDefault()} className=" absolute bg-black w-full md:w-2/6 my-36 mx-auto right-0 left-0 text-white p-12 opacity-85 rounded-md ">
             <h1 className=" font-bold text-3xl mb-6">{isSignedUp? 'Sign In':'Sign Up'}</h1>
             {isSignedUp || <input ref={name} className="p-4 my-2 w-full bg-gray-700 rounded-md" type="text" placeholder="Name"/>}
             <input ref={email} className="p-4 my-2 w-full bg-gray-700 rounded-md" type="text" placeholder="Email address"/>

@@ -5,7 +5,7 @@
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer'+process.env.REACT_APP_TMDBkEY,
+      Authorization: 'Bearer '+process.env.REACT_APP_TMDBKEY,
     }
   };
   export const POSTER_CDN='https://image.tmdb.org/t/p/w400/';

@@ -4,10 +4,15 @@ import GptSearchbar from './GptSearchbar';
 
  const GptSearchPage=()=>{
     return (
-    <div >
-        <img src={NETFLIX_BACKGROUND} alt='Background_img' className=' fixed -z-10'/>
+      <>        
+      <img src={NETFLIX_BACKGROUND} alt='Background_img' className=' h-full object-cover md:w-full fixed -z-10'/>
+      
+      <div className='  '>
+
        <GptSearchbar/>
        <GptMovieSuggestion/>
-    </div>)
+    </div>
+      </>
+    )
  }
  export default GptSearchPage;
