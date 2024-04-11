@@ -8,6 +8,7 @@ import GptSearchPage from "./GptSearchPage";
 import useTrendingMovies from "../Hooks/useTrendingMovies";
 import useTopRatedMovies from "../Hooks/useTopRatedMovies";
 import useAwardWinningMovies from "../Hooks/useAwardWinningMovies";
+import Footer from "./Footer";
 
 
 
@@ -20,10 +21,13 @@ const Browse=()=>{
 
     return (<div>
         <Header/>
-        {gptSearch?<GptSearchPage/>:<>
-        <MainContainer/>
+        {gptSearch?<GptSearchPage/>:<><MainContainer/>
         <SecondaryContainer/>
-        </> }
+        <Footer/>
+        </>}
+        
+    
+        
        
     </div>)
 };

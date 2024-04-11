@@ -11,3 +11,7 @@
   export const POSTER_CDN='https://image.tmdb.org/t/p/w400/';
   export const supported_Language=[{identifier:'en',name:'English'},{identifier:'hindi',name:'Hindi'},{identifier:'gujarati',name:'Gujarati'}];
   export const OPENAI=process.env.REACT_APP_OPENAI;
+  export const LINKEDIN_LOGO='https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png';
+ export const INSTA_LOGO='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png';
+ export const TWITTER_LOGO='https://freelogopng.com/images/all_img/1690643640twitter-x-icon-png.png';
+ export const GITHUB_LOGO='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png';
